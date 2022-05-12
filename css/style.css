@@ -25,6 +25,8 @@ p, h1, h2, h3, figure {
   margin: 0;
 }
 
+/*index.html + article.html*/
+
 p {
   margin-bottom: 40px;
   width: 872px;
@@ -32,6 +34,7 @@ p {
   font-size: 20px;
   line-height: 32px;
 }
+
 
 h1 {
   margin-bottom: 40px;
@@ -136,7 +139,7 @@ h3 {
   margin-bottom: 40px;
 }
 
-.gray-block .paragraph {
+.gray-block p {
   width: 692px;
   margin-bottom: 10px;
 }
@@ -177,4 +180,119 @@ figure figcaption {
   font-weight: 400;
   font-size: 14px;
   text-align: center;
+}
+
+/*modules.html*/
+
+.container-modules {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 1170px;
+}
+
+.logo-modules {
+  width: 137px;
+  height: auto;
+  margin-bottom: 25px;
+}
+
+.back-link {
+  display: block;
+  width: 162px;
+  background-image: url('../img/modules/arrow1.svg');
+  background-position: left center;
+  background-size: 45px;
+  background-repeat: no-repeat;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #3f2aff;
+  padding-left: 52px; /* (45+7) насчёт этого решения - было бы неплохо уточниться */
+  margin-bottom: 25px;
+}
+
+.main-text-1s {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  color: #3f2aff;
+  margin-bottom: 50px;
+}
+
+.list-modules {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.list-modules li {
+  position: relative;
+  display: block;
+  width: 572px;
+  height: 505px;
+  float: left;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+}
+
+.list-modules-block {
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.list-modules li img {
+  width: 100%;
+  height: auto;
+}
+
+.list-modules-item {
+  padding: 25px;
+}
+
+.list-modules-item h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #3F2AFF;
+  margin-bottom: 0;
+}
+
+.list-modules-item p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 165%;
+  color: #333333;
+}
+
+.list-modules-item span {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  color: #EAEAEA;
+}
+
+.showmore-link {
+  display: inline-block;
+  margin: 50px 0 25px 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  border: 2px solid #3f2aff;
+  padding: 25px 75px;
+  text-align: center;
+  color: #3F2AFF;
+}
+
+.button-modules {
+  margin-left: 0;
+  margin-right: 0;
 }
