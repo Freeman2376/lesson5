@@ -237,7 +237,14 @@ figure figcaption {
 }
 
 .list-modules-block {
+  display: inline-block;
   margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.list-modules-block:nth-child(2n) {
+  display: inline-block;
+  margin-right: 0;
   margin-bottom: 25px;
 }
 
@@ -279,20 +286,21 @@ figure figcaption {
   color: #EAEAEA;
 }
 
+.showmore-block {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 20px; /* как по другому? */
+}
+
 .showmore-link {
-  display: inline-block;
-  margin: 50px 0 25px 0;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
   border: 2px solid #3f2aff;
   padding: 25px 75px;
-  text-align: center;
   color: #3F2AFF;
 }
 
-.button-modules {
-  margin-left: 0;
-  margin-right: 0;
-}
+
